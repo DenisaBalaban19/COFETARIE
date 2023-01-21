@@ -1,0 +1,178 @@
+.logoImg {
+    
+    height: 90px;
+}
+.carousel-item {
+    height:28rem;
+    
+}
+
+.titlu{
+    text-align: center;
+    padding-bottom:5%;
+    padding-top:3% ;
+}
+
+.row1 {
+     display:flex;  /*flex ca sa se puna produsele pe acelasi rand */
+                     /* block ca sa se puna unul sub altul */
+     
+     justify-content:space-between; 
+     margin-left:12%;     
+     margin-bottom:5%; 
+     margin-top: 2%;        
+
+}
+
+.photo-img{
+    height:60%;
+    width:60%;
+}
+
+.products{
+    width:30% ;
+    height:30% ;
+}
+
+.description p{
+    text-align:center;
+}
+
+.row2 {
+    display:flex;  
+    justify-content:space-between; 
+    margin-left:12%;
+    
+    
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: 5% 20%;
+  }
+  
+  td, th {
+    text-align: left;
+    padding: 8px;
+    padding-left: 70px;
+  }
+  
+  .verticalLine {
+    border-right: 0.5px solid black;
+  }
+
+
+
+
+
+.ingredients {
+    display:flex;
+
+}
+
+.photo-img1{
+    width:70%;
+    height: 80%;
+    margin-left:6%;
+    margin-top:6%;
+}
+
+
+.photo-img2{
+    width:90%;
+    height: 80%;
+    margin-left:6%;
+    margin-top:6%;
+
+}
+
+
+
+
+.ingredients-description h2 {
+    color: #f25959;
+    
+}
+
+
+
+.myButton {
+	background-color:#fc8d83;
+	border-radius:6px;
+	border:1px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:#e6afaf;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 20px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#d3695f;
+}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.ingredients-description{
+    margin-right:6%;
+    margin-top: 6%;
+}
+
+.paragraf{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 25px;
+}
+
+.order form{
+    padding: 2rem;
+    background: #F3EFE0;
+    box-shadow:grey;
+}
+
+.order form .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:2rem;
+}
+
+.order form .box-container .box{
+    flex: 1 1 41rem;
+}
+
+.order form .box-container .box .inputBox input,
+.order form .box-container .box .inputBox textarea{
+    width: 100%;
+    margin: 1rem 0;
+    padding: 1.2rem 1.4rem;
+    color: black;
+    border: black;
+}
+
+.order form .box-container .box .inputBox input::placeholder,
+.order form .box-container .box .inputBox textarea::placeholder{
+    text-transform: capitalize;
+}
+
+.order form .box-container .box .inputBox input:focus
+.order form .box-container .box .inputBox textarea:focus{
+    background: red;
+    color: white;
+}
+
+.order form .box-container .box .inputBox input:focus::placeholder,
+.order form .box-container .box .inputBox textarea:focus::placeholder{
+    color: #ccc;
+}
+
+.order form .box-container .box .inputBox textarea{
+    height: 20rem;
+    resize: none;
+}
+
